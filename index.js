@@ -17,5 +17,4 @@ const server = app.listen(port, function () {
 
   console.log('Endpoints: \n', listEndpoints(app));
   console.log("server started on port " + port);
-
 });
